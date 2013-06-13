@@ -1,7 +1,7 @@
 var b = require('bonescript');
 var rightBtnPin = "P9_17";
 var leftBtnPin = "P9_18";
-var startBtn = "p9_19";
+var startBtn = "P9_19";
 
 b.pinMode(startBtn, b.INPUT);
 b.pinMode(rightBtnPin, b.INPUT);
